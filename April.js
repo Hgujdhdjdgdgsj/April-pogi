@@ -1,8 +1,8 @@
 module.exports = {
     config: {
-        name: "jay",
+        name: "April",
         version: "1.0",
-        author: "Jay Senpai",
+        author: "April Pogi",
         countDown: 5,
         role: 0,
         shortDescription: "sarcasm",
@@ -16,9 +16,9 @@ module.exports = {
         getLang
     }) {
         const lowerCaseBody = event.body.toLowerCase();
-        if (lowerCaseBody.includes("jay") || lowerCaseBody.includes("jay d bohol") ||
+        if (lowerCaseBody.includes("Pogi") || lowerCaseBody.includes("jay d bohol") ||
 lowerCaseBody.includes("bohol") ||
-lowerCaseBody.includes("Jay D Bohol")) {
+lowerCaseBody.includes("April Pogi")) {
             return message.reply(`busy pa master ko`);
         }
     }
