@@ -17,12 +17,12 @@ module.exports = {
 module.exports.run = async ({ api, event }) => {
   try {
     const ownerInfo = {
-      name: 'Rickciel',
+      name: 'April M. Manalo',
       gender: 'Male',
-      age: '17',
-      height: '6\'9ft',
-      facebookLink: 'Rickciel Escaran',
-      status: 'Nothing'
+      age: '15',
+      height: '5'10',
+      facebookLink: 'https://www.facebook.com/profile.php?id=100075247455712',
+      status: 'In a relationship'
     };
 
     const videoUrl = 'https://drive.google.com/file/d/16MwwSknEOBRXm79clUOAMcPsxnEP45lb/view?usp=drivesdk'; // Replace with your Google Drive videoid link https://drive.google.com/uc?export=download&id=here put your video id
