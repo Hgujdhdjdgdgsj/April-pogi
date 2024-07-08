@@ -1,28 +1,24 @@
 module.exports = {
 	config: {
 		name: "unsend",
-		version: "1.1",
+		version: "1.2",
 		author: "NTKhang",
 		countDown: 5,
 		role: 0,
-		shortDescription: {
-			vi: "Gỡ tin nhắn của bot",
-			en: "Unsend bot's message"
-		},
-		longDescription: {
-			vi: "Gỡ tin nhắn của bot",
+		description: {
+			vi: "Gá»¡ tin nháº¯n cá»§a bot",
 			en: "Unsend bot's message"
 		},
 		category: "box chat",
 		guide: {
-			vi: "reply tin nhắn muốn gỡ của bot và gọi lệnh {pn}",
+			vi: "reply tin nháº¯n muá»‘n gá»¡ cá»§a bot vÃ  gá»i lá»‡nh {pn}",
 			en: "reply the message you want to unsend and call the command {pn}"
 		}
 	},
 
 	langs: {
 		vi: {
-			syntaxError: "Vui lòng reply tin nhắn muốn gỡ của bot"
+			syntaxError: "Vui lÃ²ng reply tin nháº¯n muá»‘n gá»¡ cá»§a bot"
 		},
 		en: {
 			syntaxError: "Please reply the message you want to unsend"
