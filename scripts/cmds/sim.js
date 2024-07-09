@@ -27,7 +27,7 @@ module.exports = {
       const result = await this.t(a);
 
       message.reply({
-        body: `🔎|𝗦𝗶𝗺𝗶𝗦𝗶𝗺𝗶\n━━━━━━━━━━━━━\n\n${result}`,
+        body: `\n\n${result}`,
       }, (err, info) => {
         api.onReply.set(info.messageID, {
           commandName: this.config.name,
